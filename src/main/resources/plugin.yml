@@ -1,0 +1,13 @@
+name: Chat
+version: '${version}'
+main: fr.alouchi.chat.Chat
+commands:
+  spycommand:
+    permission: event.spy
+    aliases:
+      - spy
+    description: Spy command of player.
+  narration:
+    permission: event.narration
+  roll:
+  me:
